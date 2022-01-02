@@ -9,4 +9,8 @@
     <string name="svs2">ÖGK</string>
     <string name="svs3">BVAEB</string>
     <string name="svs4">KVA</string>
+    <string name="welcome_heading">Willkommen zu Docdate</string>
+    <string name="welcome_sub_heading">Mit DocDate finden Sie rasch einen Termin bei einem Arzt Ihrer Wahl.</string>
+    <string name="find_docs">Ärzte finden</string>
+    <string name="current_appointments">Aktuelle Termine</string>
 </resources>
