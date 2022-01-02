@@ -3,7 +3,10 @@
     <string name="tab_text_1">Start</string>
     <string name="tab_text_2">Alle Ärzte</string>
     <string name="tab_text_3"><![CDATA[Ärzte-\nFormular]]></string>
-    <string name="tab_text_4"><![CDATA[Termine-\nFormular]]></string>
-    <!-- TODO: Remove or change this placeholder text -->
+    <string name="tab_text_4"><![CDATA[Termine-\nFormular]]></string>>
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="svs1">SVS</string>
+    <string name="svs2">ÖGK</string>
+    <string name="svs3">BVAEB</string>
+    <string name="svs4">KVA</string>
 </resources>

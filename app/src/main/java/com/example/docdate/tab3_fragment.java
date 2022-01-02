@@ -1,11 +1,18 @@
 package com.example.docdate;
 
 import android.os.Bundle;
+import android.text.TextUtils;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
+import android.widget.EditText;
 
 import androidx.fragment.app.Fragment;
+
+import com.google.android.material.snackbar.Snackbar;
+
+import java.util.ArrayList;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -54,10 +61,67 @@ public class tab3_fragment extends Fragment {
         }
     }
 
+
     @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container,
-                             Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.tab3_layout, container, false);
+    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+        View view =   inflater.inflate(R.layout.tab3_layout,container,false);
+        Button btn = (Button)view.findViewById(R.id.formBtn);
+        EditText vname = (EditText)view.findViewById(R.id.vnameInp);
+        EditText nname = (EditText)view.findViewById(R.id.nnameInp);
+        EditText address = (EditText)view.findViewById(R.id.adressInp);
+        EditText phone = (EditText)view.findViewById(R.id.phoneInp);
+        EditText email = (EditText)view.findViewById(R.id.EMailInp);
+        EditText fachrichtung = (EditText)view.findViewById(R.id.fachrichtungInp);
+        EditText kzBesch = (EditText)view.findViewById(R.id.kurzbeschreibung);
+        EditText longBesch = (EditText)view.findViewById(R.id.erzählenInp);
+
+        btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                ArrayList<String> missing = new ArrayList<String>();
+
+                if(vname.getText().length()<=0){
+                    missing.add("Vorname");
+                }
+
+                if(nname.getText().length()<=0){
+                    missing.add("Nachname");
+                }
+
+                if(address.getText().length()<=0){
+                    missing.add("Adresse");
+                }
+
+                if(phone.getText().length()<=0){
+                    missing.add("Telefonnummer");
+                }
+
+                if(email.getText().length()<=0){
+                    missing.add("E-Mail");
+                }
+
+                if(fachrichtung.getText().length()<=0){
+                    missing.add("Fachrichtung");
+                }
+
+                if(kzBesch.getText().length()<=0){
+                    missing.add("Kurzbeschreibung");
+                }
+
+                if(longBesch.getText().length()<=0){
+                    missing.add("Beschreibung");
+                }
+                if(missing.size()==0) {
+                    Snackbar.make(view, "Erfolgreich eingereicht", Snackbar.LENGTH_LONG)
+                            .setAction("Action", null).show();
+                }else{
+
+                    String joined = TextUtils.join(", ", missing);
+                    Snackbar.make(view, "Folgende Pflichfelder fehlen: "+ joined, Snackbar.LENGTH_LONG)
+                            .setAction("Action", null).show();
+                }
+            }
+        });
+        return view;
     }
 }

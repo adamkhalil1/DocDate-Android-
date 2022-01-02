@@ -22,4 +22,8 @@
     <style name="Theme.DocDate.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
     <style name="Theme.DocDate.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="Button.Blue" parent="ThemeOverlay.AppCompat">
+        <item name="colorAccent">@android:color/holo_blue_light</item>
+    </style>
 </resources>
