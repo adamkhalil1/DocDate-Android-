@@ -13,5 +13,11 @@
     <string name="welcome_sub_heading">Mit DocDate finden Sie rasch einen Termin bei einem Arzt Ihrer Wahl.</string>
     <string name="find_docs">Ärzte finden</string>
     <string name="current_appointments">Aktuelle Termine</string>
-    <string name="doc1"><![CDATA[Dr. Sepp Heinz\nZahnarzt\nA: Beispielstraße1 \nT: +43 125678919\nE: test@mail.at\nW: heinzmeint.at]]></string>
+
+    <string name="doc1"><![CDATA[Dr. Sepp Heinz\nZahnarzt\nA: Beispielstraße 1 \nT: +43 125678919\nE: test@mail.at\nW: heinzmeint.at]]></string>
+    <string name="doc2"><![CDATA[Dr. Hans Peter\nHautarzt\nA: Fridolinstr 3 \nT: +43 23423525\nE: franzi@mail.at\nW: arzti.at]]></string>
+    <string name="doc3"><![CDATA[Dr. Gerald Fuss\nUrologe\nA: Hansestraße 3 \nT: +43 12312413252\nE: geri@mail.at\nW: docmarten.at]]></string>
+    <string name="doc4"><![CDATA[Dr. Ferdinand Gun\nZahnarzt\nA: Friedrichspaltz 3 \nT: +43 33334411234\nE: maste@mail.at\nW: docte.at]]></string>
+    <string name="doc5"><![CDATA[Dr. Heinz Jens\nFrauenarzt\nA: Plüddemangasse 20 \nT: +43 45323222\nE: heinzi@mail.at\nW: jenso.at]]></string>
+    <string name="doc6"><![CDATA[Dr. Ludwig Krainz\n\nA: Bärenstraße1 \nT: +43 21342354\nE: ludwi@mail.at\nW: ludwigdoc.at]]></string>
 </resources>
