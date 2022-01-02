@@ -6,4 +6,9 @@
     <string name="tab_text_4"><![CDATA[Termine-\nFormular]]></string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="welcome_heading">Willkommen zu Docdate</string>
+    <string name="welcome_sub_heading">Mit DocDate finden Sie rasch einen Termin bei einem Arzt Ihrer Wahl.</string>
+    <string name="find_docs">Ärzte finden</string>
+    <string name="current_appointments">Aktuelle Termine</string>
+
 </resources>
