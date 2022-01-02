@@ -2,7 +2,6 @@ package com.example.docdate.ui.main;
 
 import android.content.Context;
 
-import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.annotation.StringRes;
 import androidx.fragment.app.Fragment;
@@ -13,7 +12,6 @@ import com.example.docdate.R;
 import com.example.docdate.tab1_fragment;
 import com.example.docdate.tab2_fragment;
 import com.example.docdate.tab3_fragment;
-import com.example.docdate.tab4_fragment;
 
 /**
  * A [FragmentPagerAdapter] that returns a fragment corresponding to
@@ -43,9 +41,6 @@ public class SectionsPagerAdapter extends FragmentPagerAdapter {
             case 2:
                 fragment = new tab3_fragment();
                 break;
-            case 3:
-                fragment = new tab4_fragment();
-                break;
         }
         return fragment;
     }
@@ -58,8 +53,7 @@ public class SectionsPagerAdapter extends FragmentPagerAdapter {
 
     @Override
     public int getCount() {
-        // Show 2 total pages.
-        return 4;
+        return 3;
     }
 
 

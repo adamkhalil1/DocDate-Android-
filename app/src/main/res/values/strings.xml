@@ -3,7 +3,7 @@
     <string name="tab_text_1">Start</string>
     <string name="tab_text_2">Alle Ärzte</string>
     <string name="tab_text_3"><![CDATA[Ärzte-\nFormular]]></string>
-    <string name="tab_text_4"><![CDATA[Termine-\nFormular]]></string>>
+    <string name="tab_text_4"><![CDATA[Termine-\nFormular]]></string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="svs1">SVS</string>
     <string name="svs2">ÖGK</string>
@@ -13,4 +13,5 @@
     <string name="welcome_sub_heading">Mit DocDate finden Sie rasch einen Termin bei einem Arzt Ihrer Wahl.</string>
     <string name="find_docs">Ärzte finden</string>
     <string name="current_appointments">Aktuelle Termine</string>
+    <string name="doc1"><![CDATA[Dr. Sepp Heinz\nZahnarzt\nA: Beispielstraße1 \nT: +43 125678919\nE: test@mail.at\nW: heinzmeint.at]]></string>
 </resources>

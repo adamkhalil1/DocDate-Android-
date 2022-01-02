@@ -231,26 +231,22 @@
                 <CheckBox android:id="@+id/svs1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/svs1"
-                    android:onClick="onCheckboxClicked"/>
+                    android:text="@string/svs1"/>
 
                 <CheckBox android:id="@+id/svs2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/svs2"
-                    android:onClick="onCheckboxClicked"/>
+                    android:text="@string/svs2"/>
 
                 <CheckBox android:id="@+id/svs3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/svs3"
-                    android:onClick="onCheckboxClicked"/>
+                    android:text="@string/svs3"/>
 
                 <CheckBox android:id="@+id/svs4"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/svs4"
-                    android:onClick="onCheckboxClicked"/>
+                    android:text="@string/svs4"/>
 
                 <Button
                     android:id="@+id/formBtn"
