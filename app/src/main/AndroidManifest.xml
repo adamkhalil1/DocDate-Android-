@@ -9,6 +9,7 @@
         android:roundIcon="@drawable/logo"
         android:supportsRtl="true"
         android:theme="@style/Theme.DocDate">
+        android:largeHeap="true"
         <activity
             android:name=".MainActivity"
             android:exported="true"
