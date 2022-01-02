@@ -4,3 +4,5 @@ DocDate is an app that connects doctors with clients. The purpose of this app is
 ## Technologies
 This native android app is written in Java
 
+##Tested
+Pixel 3 API23
